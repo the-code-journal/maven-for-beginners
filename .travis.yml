@@ -2,6 +2,4 @@ language: java
 jdk:
   - openjdk8
 script:
-  - cd 001-dependency-management-simple/final && mvn -B -V package cobertura:cobertura
-after_success:
-  - cd 001-dependency-management-simple/final && bash <(curl -s https://codecov.io/bash)
+  - cd 001-dependency-management-simple/final && mvn -B -V package cobertura:cobertura && bash <(curl -s https://codecov.io/bash)
