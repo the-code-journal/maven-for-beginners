@@ -1,4 +1,4 @@
-package codejournal.io.maven.dependency;
+package io.codejournal.maven.dependency;
 
 import static org.junit.Assert.assertTrue;
 

@@ -4,10 +4,9 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>codejournal.io.maven</groupId>
+    <groupId>io.codejournal.maven</groupId>
     <artifactId>dependency-management-simple</artifactId>
     <version>1.0</version>
-
     <name>dependency-management-simple</name>
 
     <properties>
@@ -20,7 +19,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>4.13.1</version>
         </dependency>
     </dependencies>
 </project>

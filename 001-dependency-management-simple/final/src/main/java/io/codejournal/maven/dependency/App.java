@@ -1,10 +1,10 @@
-package codejournal.io.maven.dependency;
+package io.codejournal.maven.dependency;
 
 import com.google.common.base.Strings;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
         final String s1 = null;
         final String s2 = "";
