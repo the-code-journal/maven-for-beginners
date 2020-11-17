@@ -4,11 +4,10 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>codejournal.io.maven</groupId>
-    <artifactId>dependency-management-simple</artifactId>
+    <groupId>io.codejournal.maven</groupId>
+    <artifactId>custom-lifecycle-mapping</artifactId>
     <version>1.0</version>
-
-    <name>dependency-management-simple</name>
+    <name>custom-lifecycle-mapping</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,7 +19,9 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>4.13.1</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>
