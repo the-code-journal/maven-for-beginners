@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
+
+  <xs:complexType name="department">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+      <xs:element name="name" type="xs:string" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="employee">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+      <xs:element name="name" type="xs:string" minOccurs="0" />
+      <xs:element name="dept" type="department" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
