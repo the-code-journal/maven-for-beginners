@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "id": "urn:jsonschema:io:codejournal:maven:java2jsonschema:Department",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
