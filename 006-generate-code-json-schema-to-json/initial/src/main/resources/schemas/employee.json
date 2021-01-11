@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "id": "urn:jsonschema:io:codejournal:maven:java2jsonschema:Employee",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
