@@ -49,7 +49,7 @@
       <plugin>
         <groupId>io.swagger.codegen.v3</groupId>
         <artifactId>swagger-codegen-maven-plugin</artifactId>
-        <version>3.0.24</version>
+        <version>3.0.25</version>
         <executions>
           <execution>
             <goals>
@@ -61,8 +61,11 @@
               <apiPackage>io.codejournal.maven.swagger2java.api</apiPackage>
               <modelPackage>io.codejournal.maven.swagger2java.model</modelPackage>
               <invokerPackage>io.codejournal.maven.swagger2java.handler</invokerPackage>
-              <generateSupportingFiles>true</generateSupportingFiles>
               <generateApiTests>false</generateApiTests>
+              <generateApiDocumentation>false</generateApiDocumentation>
+              <generateModelTests>false</generateModelTests>
+              <generateModelDocumentation>false</generateModelDocumentation>
+              <generateSupportingFiles>true</generateSupportingFiles>
               <configOptions>
                 <interfaceOnly>true</interfaceOnly>
                 <dateLibrary>java8</dateLibrary>
